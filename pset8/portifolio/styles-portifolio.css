@@ -1,0 +1,117 @@
+/* Add your CSS styles here */
+/*csslint box-sizing: false*/
+
+
+/*CONFIG PADRÃO*/
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  
+}
+
+html,body{
+  height: 100%;
+}
+
+.container{
+  max-width: 1280;
+  margin: 0 auto;
+}
+
+.clear{
+  clear: both;
+}
+
+.left{
+  float: left;
+}
+
+.right{
+  float: right;
+}
+
+/*HEADER */
+header {
+  background-color: white;
+;
+  color: white;
+  padding: 20px;
+}
+
+
+/*BOX-CAPTURA*/
+
+
+/*CONTENT*/
+
+/*FOOTER*/
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+
+nav {
+  background-color: white;
+;
+  color: #fff;
+  padding: 10px;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 10px;
+}
+
+nav ul li a {
+  color: black;
+  text-decoration: none;
+}
+
+section {
+  margin: 20px;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+}
+
+/*ALBUM EXEMPLE CSS*/
+
+.jumbotron {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  margin-bottom: 0;
+  background-color: #fff;
+}
+@media (min-width: 768px) {
+  .jumbotron {
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+  }
+}
+
+.jumbotron p:last-child {
+  margin-bottom: 0;
+}
+
+.jumbotron h1 {
+  font-weight: 300;
+}
+
+.jumbotron .container {
+  max-width: 40rem;
+}
